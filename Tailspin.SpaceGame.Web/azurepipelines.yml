@@ -1,7 +1,7 @@
 stages:
- -stage: buildstage
+ - stage: buildstage
  jobs:
-  -job: buildjob
+  - job: buildjob
   steps:
   - script: dotnet restore
   - script: dotnet build
